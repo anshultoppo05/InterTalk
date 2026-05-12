@@ -1,0 +1,16 @@
+{
+  "name": "intertalk",
+  "version": "1.0.0",
+  "description": "InterTalk - AI Mock Interview Platform",
+  "private": true,
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd client && npm run start",
+    "lint": "cd client && npm run lint"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
