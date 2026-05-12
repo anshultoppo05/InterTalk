@@ -2,10 +2,5 @@
   "version": 2,
   "buildCommand": "cd client && npm run build",
   "outputDirectory": "client/.next",
-  "framework": "nextjs",
-  "functions": {
-    "client/**": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "framework": "nextjs"
 }
